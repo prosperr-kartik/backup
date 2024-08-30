@@ -1,0 +1,50 @@
+.slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .slider-left, .slider-right {
+    width: 45%;
+    padding: 20px;
+  }
+  
+  .slider-left {
+    text-align: left;
+  }
+  
+  .slider-right img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .slick-dots.custom-dots {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    padding: 0;
+  }
+  
+  .slick-dots.custom-dots li {
+    margin: 5px 0;
+  }
+  
+  .slider-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: gray;
+    transition: all 0.3s ease;
+  }
+  
+  .slider-circle.active {
+    width: 15px;
+    height: 15px;
+    background: green;
+  }
+  
